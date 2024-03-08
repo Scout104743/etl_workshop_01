@@ -1,16 +1,16 @@
-## Data Engineer Workshop
+## Data Engineer Workshop:
 ### This project presents a solution to an interview challenge for the Python Data Engineer role. The challenge aims to evaluate your data management skills and your ability to create meaningful visualizations.
 
-## About the CSV
+## About the CSV:
 ### The included CSV file contains simulated data from candidates who participated in selection processes.
 
-## Solution Overview
-### Tools Used
+## Solution Overview:
+### Tools Used:
 ### Database Management System: PostgreSQL 
 
 ### Visualizations: Power BI. To create charts directly from the PostgreSQL database.
 
-## Repository Contents
+## Repository Contents:
 ### The repository consists of the following components:
 
 ## Notebooks Folder:
@@ -28,12 +28,12 @@
 ### insert_data.py: The file contains a function `insertar_datos` that loads data from a CSV file (`candidates.csv`) into a PostgreSQL database table named "candidates". The function uses the `pandas` library to read the CSV file into a DataFrame and the `psycopg2` library to connect to the database. The database configuration is loaded from a JSON file (`db_config.json`). For each row in the DataFrame, the function prepares an SQL insert query and executes it, inserting the data into the "candidates" table. The `hired` column is calculated based on the values of `code_challenge_score` and `technical_intrvw_score`. After inserting all the rows, the function commits the changes to the database and closes the connection and cursor. The function prints a success message upon successful data insertion.
 
 
-## Getting Started
-### Follow the next steps
+## Getting Started:
+### Follow the next steps:
 
-### Clone the repository, specifically using "https://github.com/Scout104743/etl_workshop_01"
-### Create a virtual environment from your terminal. You can use: "python -m venv [environment_name]"
-### Activate your virtual environment. You can use: "[environment_name]/scripts/activate"
-### Install the required tools and modules in the environment. Use: "pip install -r requirements.txt".
-### Set the created environment as kernel.
-### Run db_connection.py, table.py and finaly insert_data.py.
+### - Clone the repository, specifically using "https://github.com/Scout104743/etl_workshop_01"
+### - Create a virtual environment from your terminal. You can use: "python -m venv [environment_name]"
+### - Activate your virtual environment. You can use: "[environment_name]/scripts/activate"
+### - Install the required tools and modules in the environment. Use: "pip install -r requirements.txt".
+### - Set the created environment as kernel.
+### - Run db_connection.py, table.py and finaly insert_data.py.
