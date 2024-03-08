@@ -31,9 +31,10 @@
 ## Getting Started:
 ### Follow the next steps:
 
-### - Clone the repository, specifically using "https://github.com/Scout104743/etl_workshop_01"
-### - Create a virtual environment from your terminal. You can use: "python -m venv [environment_name]"
-### - Activate your virtual environment. You can use: "[environment_name]/scripts/activate"
+### - Clone the repository using "https://github.com/Scout104743/etl_workshop_01"
+### - Create a virtual environment from your terminal. You can use: "python -m venv environment_name"
+### - Activate your virtual environment. You can use: "environment_name/scripts/activate"
 ### - Install the required tools and modules in the environment. Use: "pip install -r requirements.txt".
 ### - Set the created environment as kernel.
 ### - Run db_connection.py, table.py and finaly insert_data.py.
+### Now you're ready to use the repository
